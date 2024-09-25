@@ -5,15 +5,10 @@ import { SelectionContext } from '../../context/SelectionContext'
 import { LocalSelectionContext } from '../../context/LocalSelectionContext'
 import {
   ObservationToggle,
-  ReactiveSyncStatusButton,
   ResetButton,
-  ToggleTipsButton,
 } from '../../components'
 
-export const EvidenceSelectorPanel = ({
-  evidence,
-  ghosts,
-}) => {
+export const EvidenceSelectorPanel = ({ evidence, ghosts }) => {
   const {
     getIsEvidenceSelected,
     toggleEvidenceSelected,
@@ -24,11 +19,7 @@ export const EvidenceSelectorPanel = ({
     reset: resetGlobalSelection,
   } = useContext(SelectionContext)
 
-  const {
-    reset: resetLocalSelection,
-    isTipsVisible,
-    toggleIsTipsVisible,
-  } = useContext(LocalSelectionContext)
+  const { reset: resetLocalSelection } = useContext(LocalSelectionContext)
 
   const onReset = () => {
     resetLocalSelection()

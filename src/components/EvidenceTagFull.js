@@ -1,4 +1,3 @@
-import CloseIcon from '@mui/icons-material/Close'
 import BlurOnIcon from '@mui/icons-material/BlurOn'
 import SensorsIcon from '@mui/icons-material/Sensors'
 import FingerprintIcon from '@mui/icons-material/Fingerprint'
