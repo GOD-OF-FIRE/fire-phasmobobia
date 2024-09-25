@@ -1,10 +1,8 @@
 import { TopNav } from '../../components'
-import useVersionData from '../../utils/version'
 import { EvidenceSelectorPanel } from './EvidenceSelectorPanel'
 import { GhostListPanel } from './GhostListPanel'
 
 export const Home = ({ rawEvidence, rawGhosts }) => {
-  const versionData = useVersionData()
 
   return (
     <div className="content-wrapper">
