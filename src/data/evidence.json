@@ -1,0 +1,44 @@
+[
+  {
+    "id": "#dots",
+    "name": "D.O.T.S.",
+    "longName": "D.O.T.S. Projector",
+    "icon": "BlurOnIcon"
+  },
+  {
+    "id": "#emf",
+    "name": "EMF",
+    "longName": "EMF Level 5",
+    "icon": "SensorsIcon"
+  },
+  {
+    "id": "#fingerprints",
+    "name": "UV",
+    "longName": "Ultraviolet",
+    "icon": "FingerprintIcon"
+  },
+  {
+    "id": "#freezing",
+    "name": "Freezing",
+    "longName": "Freezing Temperatures",
+    "icon": "ThermostatIcon"
+  },
+  {
+    "id": "#orb",
+    "name": "Orb",
+    "longName": "Ghost Orb",
+    "icon": "HdrWeakIcon"
+  },
+  {
+    "id": "#writing",
+    "name": "Writing",
+    "longName": "Ghost Writing",
+    "icon": "AutoStoriesIcon"
+  },
+  {
+    "id": "#box",
+    "name": "Spirit Box",
+    "longName": "Spirit Box",
+    "icon": "RecordVoiceOverIcon"
+  }
+]

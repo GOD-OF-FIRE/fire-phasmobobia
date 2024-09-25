@@ -1,0 +1,61 @@
+// Replace this with sass option if I want to customise the Bulma theme
+@use '../node_modules/bulma/css/bulma.min.css';
+
+footer {
+  padding: 2.5rem 5rem !important;
+}
+
+.has-text-line-through {
+  text-decoration: line-through;
+}
+
+.has-letter-spacing {
+  letter-spacing: 3px;
+}
+
+.content-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.content-main {
+  flex: 1;
+}
+
+.has-border-left-dark {
+  border-left: 3px solid var(--bulma-dark);
+  margin-left: 2.6rem !important;
+}
+
+li::marker {
+  color: var(--bulma-success);
+}
+
+.tag.is-transparent {
+  background: transparent;
+}
+
+.tag.has-border {
+  border: 2px solid var(--bulma-dark);
+}
+
+.has-pointer-on-hover:hover {
+  cursor: pointer;
+}
+
+.is-visible-on-hover {
+  visibility: hidden;
+}
+
+.hover-parent:hover .is-visible-on-hover {
+  visibility: visible;
+}
+
+.no-underline {
+  text-decoration: none !important;
+}
+
+.tag.is-transparent.is-forced-evidence {
+  box-shadow: 0 2px 0 var(--bulma-success);
+}
